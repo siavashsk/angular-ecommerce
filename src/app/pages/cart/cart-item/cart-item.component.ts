@@ -13,7 +13,7 @@ import { CartService } from '../../../services/cart.service';
       <img [src]="item().image" class="w-[60px] h-[60px] object-cover" alt="" />
       <div class="flex flex-col">
         <span class="text-md font-bold">{{ item().title }}</span>
-        <span class="text-sm">{{ item().price }}</span>
+        <span class="text-lg">{{ '$' + item().price }}</span>
       </div>
       <div class="flex-1"></div>
       <app-button
