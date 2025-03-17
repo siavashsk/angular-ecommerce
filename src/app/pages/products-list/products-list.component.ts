@@ -15,6 +15,12 @@ import { ProductCardComponent } from './product-card/product-card.component';
   styles: ``,
 })
 export class ProductsListComponent {
+  async ngOnInit() {
+    const res = await fetch('url');
+    const data = await res.json();
+    // this.products.set(data);
+  }
+
   products = signal<Product[]>([
     {
       id: 1,
