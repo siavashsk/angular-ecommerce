@@ -6,7 +6,9 @@ import { ProductCardComponent } from './product-card/product-card.component';
   selector: 'app-products-list',
   imports: [ProductCardComponent],
   template: `
-    <div class="p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+    <div
+      class="p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4"
+    >
       @for(product of products(); track product.id){
       <app-product-card [product]="product" />
       }
@@ -16,8 +18,9 @@ import { ProductCardComponent } from './product-card/product-card.component';
 })
 export class ProductsListComponent {
   async ngOnInit() {
-    // const res = await fetch('url');
-    // const data = await res.json();
+    const res = await fetch('http://localhost:3000/products');
+    const data = await res.json();
+    console.log(data);
     // this.products.set(data);
   }
 
