@@ -11,11 +11,16 @@ import { RouterLink } from '@angular/router';
       class="bg-slate-100 px-4 py-3 shadow-md flex justify-between items-center"
     >
       <button class="text-xl" routerLink="/">My Store</button>
-      <app-primary-button
-        [label]="'Cart (' + cartService.cart().length + ') '"
-        (btnClicked)="showButtonClicked()"
-        routerLink="/cart"
-      />
+      <div class="flex items-center gap-2">
+        <app-primary-button
+          [label]="'Cart (' + cartService.cart().length + ') '"
+          (btnClicked)="showButtonClicked()"
+          routerLink="/cart"
+        />
+        <button class="text-xl cursor-pointer" routerLink="/profile">
+          Profile
+        </button>
+      </div>
     </div>
   `,
   styles: ``,

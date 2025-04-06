@@ -16,8 +16,8 @@ import { ProductCardComponent } from './product-card/product-card.component';
 })
 export class ProductsListComponent {
   async ngOnInit() {
-    const res = await fetch('url');
-    const data = await res.json();
+    // const res = await fetch('url');
+    // const data = await res.json();
     // this.products.set(data);
   }
 
