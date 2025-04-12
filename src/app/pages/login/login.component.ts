@@ -94,7 +94,6 @@ export class LoginComponent {
 
     setTimeout(() => {
       this.isLoading.set(false);
-      console.log('logged in');
       this.router.navigate(['/profile']);
     }, 1000);
   }
