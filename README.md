@@ -1,5 +1,8 @@
 ## 🛒 Angular E-Commerce App
 
+### Demo version
+https://ng-ecommerce.liara.run
+
 A modern Angular-based e-commerce application featuring a shopping cart, user authentication, and order management.
 
 ## 🛠️ Technologies Used
