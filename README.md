@@ -14,7 +14,6 @@ A modern Angular-based e-commerce application featuring a shopping cart, user au
 - User authentication with a login page​
 - Shopping cart functionality​
 - Order history with status and date​
-- Dropdown menu in the header with "My Account" and "Logout" options​
 - Mock backend using JSON Server
 
 
