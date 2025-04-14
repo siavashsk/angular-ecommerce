@@ -10,27 +10,15 @@ A modern Angular-based e-commerce application featuring a shopping cart, user au
 
 ## 🚀 Features
 
-Login with username
-View & Update Account
-View & Update User Info
-Add / Remove Multiple tickets
-Add / Remove products as admin
-View Transaction & Withdrawal History
-Fully Responsive – Royal Club is a fully responsive template and works perfectly on all screen sizes and mobile devices.
+- Responsive design using Tailwind CSS​
+- User authentication with a login page​
+- Shopping cart functionality​
+- Order history with status and date​
+- Dropdown menu in the header with "My Account" and "Logout" options​
+- Mock backend using JSON Server
 
 
-## 📦 Installation
-
-Admin panel provides a clean, friendly user interface and many various functionalities including:
-
-- Add / delete/ edit products
-- Manage all users
-- Edit and update user information
-- Add / delete Tournaments
-- Manage user info, logs and user tickets
-- Sort users by level, cup, coin, gem and etc...
-
-## 🚀 Setup
+## 📦 Setup
 
 Follow the following steps to get development environment running.
 
