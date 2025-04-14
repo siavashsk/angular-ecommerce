@@ -1,59 +1,53 @@
-# AngularEcomm
+## 🛒 Angular E-Commerce App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+A modern Angular-based e-commerce application featuring a shopping cart, user authentication, and order management.
 
-## Development server
+## 🛠️ Technologies Used
 
-To start a local development server, run:
+- Angular​
+- Tailwind CSS​
+- JSON Server​
 
-```bash
-ng serve
-```
+## 🚀 Features
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Login with username
+View & Update Account
+View & Update User Info
+Add / Remove Multiple tickets
+Add / Remove products as admin
+View Transaction & Withdrawal History
+Fully Responsive – Royal Club is a fully responsive template and works perfectly on all screen sizes and mobile devices.
 
-## Code scaffolding
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 📦 Installation
 
-```bash
-ng generate component component-name
-```
+Admin panel provides a clean, friendly user interface and many various functionalities including:
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- Add / delete/ edit products
+- Manage all users
+- Edit and update user information
+- Add / delete Tournaments
+- Manage user info, logs and user tickets
+- Sort users by level, cup, coin, gem and etc...
 
-```bash
-ng generate --help
-```
+## 🚀 Setup
 
-## Building
+Follow the following steps to get development environment running.
 
-To build the project run:
+- Clone _'angular-ecommerce-app.git'_ repository
 
-```bash
-ng build
-```
+  ```bash
+  git clone https://github.com/yourusername/angular-ecommerce-app.git
+  ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- Install dependencies
 
-## Running unit tests
+  ```bash
+  npm install
+  ```
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+- start development server
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+  ```bash
+  npm start
+  ```
