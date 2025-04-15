@@ -11,9 +11,9 @@ import { CartService } from '../../../services/cart.service';
       class="bg-white shadow-md border-1 border-zinc-300 rounded-xl p-6 flex flex-col gap-6 relative"
     >
       <div class="mx-auto">
-        <img [src]="product().image" class="w-[200px] h-[100px] object-cover" />
+        <img [src]="product().image" class="w-[200px] h-[100px] object-cover rounded-md" />
       </div>
-      <div class="flex flex-col mt-2">
+      <div class="flex flex-col">
         <span class="text-md font-bold">{{ product().title }}</span>
         <span class="text-sm">{{ '$' + product().price }}</span>
         <app-primary-button

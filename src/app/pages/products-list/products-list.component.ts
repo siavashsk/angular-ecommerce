@@ -18,8 +18,9 @@ import { ProductCardComponent } from './product-card/product-card.component';
 })
 export class ProductsListComponent {
   async ngOnInit() {
-    const res = await fetch('http://localhost:3000/products');
+    const res = await fetch('https://67fcf1ff3da09811b1741a1f.mockapi.io/products');
     const data = await res.json();
+    console.log(data)
     this.products.set(data);
   }
 
