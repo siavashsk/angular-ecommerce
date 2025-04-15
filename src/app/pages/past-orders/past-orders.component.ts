@@ -40,7 +40,7 @@ import { Component, signal } from '@angular/core';
 export class PastOrdersComponent {
   pastOrders = signal<any[]>([]);
   async ngOnInit() {
-    const res = await fetch('http://localhost:3000/pastOrders');
+    const res = await fetch('https://67fcf1ff3da09811b1741a1f.mockapi.io/pastOrders');
     const data = await res.json();
     this.pastOrders.set(data);
   }
